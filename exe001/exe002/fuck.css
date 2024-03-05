@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+p{
+    color: white;
+}
+a{
+    color: red;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

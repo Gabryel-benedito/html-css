@@ -1,0 +1,15 @@
+body{background-color: black;}
+h1{color: aquamarine;}
+p{color: white; font-size: 18px; font-family: Arial, Helvetica, sans-serif;}
+a{
+  color: red;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    
+}
+.item{
+  display: flex;
+  justify-content:right;
+}
