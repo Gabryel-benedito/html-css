@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animações</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="animado" class="conteiner">
+        <p id="parara" class="iluminati">algo</p>
+    </div>
+
+    <script src="script.js"></script>
+
+    <a href="2.html"> vá pra pqp </a>
+
+    <main>
+        <h1>explicação do código js</h1>
+        <p> 
+            <pre>
+                -document.getElementById("animado"): Seleciona o elemento do botão pelo ID.
+                
+                -.addEventListener('click', function() {...}): Adiciona um ouvinte de evento ao botão para ouvir o evento de clique. Quando o botão é clicado, a função dentro é executada.
+                
+                -let remover = window.document.getElementById("animado"); seleciona o elemento com esse detreminado ID
+                -let removeParagrafo =  window.document.getElementById("parara");  seleciona o elemento com esse detreminado ID.
+                
+                -remover.classList.remove("conteiner");
+                -removeParagrafo.classList.remove("iluminati")
+                    amobos os itens acima removem a classe indicada entre aspas.
+                
+                -setTimeout(function(){
+                        remover.classList.add("conteiner");
+                        removeParagrafo.classList.add("iluminati")
+                    }, 3000);
+                })  faz com que após 3 segundos (3000 milésimos como está detalhado no código) a função seja executada
+            </pre>
+            </p>
+    </main>
+    
+    
+</body>
+</html>

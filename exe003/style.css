@@ -1,0 +1,106 @@
+@keyframes cor{
+    0%{
+        background-color: black;
+        color: white;
+        font-size: 1em;
+        text-shadow: 3px 3px 7px rgba(255, 255, 255, 0.822);
+        width: 100%;
+        margin: 0px auto;
+        padding: 0px;
+        border-radius: 0px;
+        
+    }
+
+    50%{
+        background-color: yellow;
+        color: black;
+        font-size: 30px;
+        text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.55);
+        width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    50%{
+        background-color: yellow;
+        color: black;
+        font-size: 30px;
+        text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.55);
+        width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    75%{
+        background-color: yellow;
+        color: black;
+        font-size: 30px;
+        text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.55);
+        width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    100%{
+        background-color: black;
+        color: white;
+        font-size: 1em;
+        text-shadow: 3px 3px 7px rgba(255, 255, 255, 0.822);
+        width: 100%;
+        margin: 0px auto;
+        padding: 0;
+        border-radius: 0px;
+
+    }
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font:  normal 18px Arial;
+}
+
+.conteiner{
+    background-color: black;
+    animation: cor 7s infinite;
+    height: 50px;
+    margin: 20px auto 50px auto;
+}
+
+.iluminati{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    animation: cor 7s infinite;
+}
+
+main{
+    width: 600px;
+    margin: 200px auto 100px auto;
+}
+
+a{
+    display: block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    margin: 100px auto 0px auto;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: 2em;
+    color: aqua;
+    border-radius: 15px;
+    background-color: black;
+    width: 300px;
+    transition-duration: 0.5s;
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Manipulação de Classes</title>
+    <style>
+        .minha-classe {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="meu-elemento" class="minha-classe">Este é o elemento</div>
+    <button id="meu-botao">Clique em mim</button>
+
+    <script>
+        document.getElementById('meu-botao').addEventListener('click', function() {
+            const elemento = document.getElementById('meu-elemento');
+            elemento.classList.remove('minha-classe');
+
+            setTimeout(function() {
+                elemento.classList.add('minha-classe');
+            }, 3000);
+        });
+    </script>
+    <a href="index.html">volte</a>
+</body>
+</html>
