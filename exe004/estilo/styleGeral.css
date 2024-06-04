@@ -1,3 +1,8 @@
+
+body{
+    background-image: url(../imagens/wallpaper002.jpg);
+}
+
 .quadrado{
     border: 2px solid black;
     width: 300px;
@@ -7,7 +12,7 @@
 }
 
 #q1{
-    background-color: skyblue;
+    background-image: linear-gradient(to bottom , rgba(255, 0, 0, 0.527) ,transparent 90% );
 }
 
 #q1:hover{
@@ -15,7 +20,7 @@
 }
 
 #q2{
-    background-image: linear-gradient(to bottom, yellow , red);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 0, 0.457) , transparent );
 }
 
 #q2:hover{
@@ -23,7 +28,7 @@
 }
 
 #q3{
-    background-color: blue;
+    background-image: linear-gradient(to bottom, rgba(0, 255, 255, 0.539) , transparent 90%);
 }
 
 
