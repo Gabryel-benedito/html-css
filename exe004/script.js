@@ -10,6 +10,8 @@
                             //define a nova posição de goku_black
                 this.style.left = randomX + 'px';
                 this.style.top = randomY + 'px';
+
+                console.log(`a posição do goku black é X ${randomX} e Y ${randomY}`)
         })
 
 
@@ -22,4 +24,7 @@
 
                             this.style.left = randomX + 'px';
                             this.style.top = randomY + 'px';
+
+
+                            console.log(`a posição do madara é X ${randomX} e Y ${randomY}`)
         })
