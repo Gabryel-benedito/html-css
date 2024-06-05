@@ -1,4 +1,10 @@
-#goku{
+
+body{
+    background-image: url('../imagens/universo.jpg');
+    background-position: center center;
+}
+
+#goku_black{
     background-image: url('../imagens/goku_black.jpeg');
     border: 1px solid black;
     height: 200px;
@@ -6,5 +12,20 @@
     background-size: 200px 200px;
     background-repeat: no-repeat;
     background-position: center center;
+    position: absolute;
+    cursor: pointer;
 
+}
+
+#madara{
+    background-image: url('../imagens/madara.jpg');
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    cursor: pointer;
+    
 }

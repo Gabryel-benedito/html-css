@@ -1,15 +1,25 @@
-function posicionamentoAleatorio(element){
-    
-        //calcula o limite máximo para a posição X (horizontal)
-    var x = window.innerWidth - element.clientWidth;
+        window.document.getElementById("goku_black").addEventListener('click' , function(){
+                    // Obtém a altura e a largura da tela
+                const largura = window.innerWidth;
+                const altura = window.innerHeight;
 
-        //calcula o limite máximo para a posição Y (vertical)
-    var y = window.innerHeight - element.clientHeight;
+                        // Gera posições aleatórias 
+                const randomX = Math.floor(Math.random()* (largura - this.clientWidth));
+                const randomY = Math.floor(Math.random()* (altura -  this.clientHeight));
 
-        //  Gera uma posição x aleatória dentro dos limites (no caso o limite é o valor dado pela variável x)
-    var randomX = Math.floor(Math.random() * x )
+                            //define a nova posição de goku_black
+                this.style.left = randomX + 'px';
+                this.style.top = randomY + 'px';
+        })
 
-        //  Gera uma posição x aleatória dentro dos limites (no caso o limite é o valor dado pela variável y)
-    var randomY = Math.floor(Math.random() * y)
 
-}
+        window.document.getElementById("madara").addEventListener('click' , function(){
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+
+                    const randomX = Math.floor(Math.random() * (width - this.clientWidth));
+                    const randomY = Math.floor(Math.random() * (height - this.clientHeight));
+
+                            this.style.left = randomX + 'px';
+                            this.style.top = randomY + 'px';
+        })
