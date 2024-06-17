@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 
 :root {
     --cor1:#011526 ;
@@ -7,14 +8,77 @@
     --cor5:#038C65 ;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-body{
+body {
     height: 100vh;
 }
 
+.menu-conteiner {
+    width: 80px;
+    height: 100%;
+    background-color: var(--cor1);
+    padding: 40px 0 40px 1%;
+    box-shadow: 4px 0px 0px var(--cor5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.menu-conteiner.btn-expandir{
+    width: 300px;
+    transition: 0.7s;
+}
+
+ul li.ativo{
+    background-color: var(--cor4);
+}
+
+.menu-icon {
+    width: 100%;
+    padding-left: 15px;
+}
+
+.menu-icon > i {
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+ul li.menu-item {
+    transition: 0.7s;
+}
+
+ul li.menu-item:hover {
+    background-color: var(--cor5);
+}
+
+ul li.menu-item a {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 40px 4%;
+    margin-bottom: 45px;
+    line-height: 30px;
+}
+
+.menu-item a .text-link {
+    margin-left: 45px;
+}
+
+.menu-item a .icon-link > i {
+    font-size: 30px;
+    margin-left: 10px;
+}
