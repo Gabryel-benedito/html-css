@@ -24,4 +24,25 @@ btnesp.addEventListener('click' , ()=> {
 });
 
 
-const main = window.document.getElementById('')
+
+
+
+const main = window.document.getElementById('main-conteiner');
+const textoEscondido = window.document.querySelectorAll('.text');
+
+    function aparecerTexto(evento) {
+        textoEscondido.forEach((texto) => {
+            texto.classList.remove('text-ativo')
+        });
+        
+       evento.currentTarget.classList.add('text-ativo')
+
+    };
+
+
+main.addEventListener('click' , () => {
+    main.classList.toggle('main-ativo');
+    textoEscondido.forEach((texto) => {
+        texto.classList.toggle('text-ativo')
+    });
+});

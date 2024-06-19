@@ -100,6 +100,7 @@ main {
     border-radius: 50%;
     background-color: var(--cor5);
     box-shadow: 5px 5px 15px var(--cor2);
+    position: relative;
 }
 
 main h1 {
@@ -113,8 +114,31 @@ main h1 {
 }
 
 main article>p {
-    font: lighter 24px 'Dosis';
+    font: 400 24px 'Dosis';
     padding: 15px;
     text-indent: 15px;
     display: none;
+}
+
+
+.text-ativo {
+    display: block;
+}
+
+.text {
+    text-align: center;
+}
+
+
+.main-ativo {
+    height: 300px;
+    width: 500px;
+    border-radius: 7px;
+}
+
+#pequena {
+    font: 200 16px 'Dosis';
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
