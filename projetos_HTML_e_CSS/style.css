@@ -25,13 +25,15 @@ body {
     color: white;
     font-size: 32px;
     margin: auto;
-    margin-left: 30px;
+    margin-left: 25px;
+    padding-top: 15px;
 }
 
 .menu-conteiner {
     background-color: var(--cor1);
-    width: 300px;
+    width: 80px;
     overflow: hidden;
+    box-shadow: 3px 0px 0px var(--cor5);
 }
 
 ul {
@@ -53,6 +55,8 @@ ul li.menu-item:hover {
 }
 
 ul .menu-item a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: white;
     font-size: 20px;
