@@ -75,7 +75,7 @@ ul .menu-item .text-icon {
 @media (min-width: 600px) and (max-width: 800px) {
     main {
         width: 250px;
-        height: 300px;
+        height: 350px;
         background-color: white;
         margin: auto;
     }
@@ -108,4 +108,9 @@ main h1 {
     text-align: center;
     margin-bottom: 17px;
     text-shadow: 1px 0.5px 4px  var(--cor2);
+}
+
+main article p {
+    padding: 10px;
+    
 }
