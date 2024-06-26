@@ -34,19 +34,22 @@ body {
     background-color: var(--cor1);
     width: 80px;
     overflow: hidden;
-    box-shadow: 3px 0px 0px var(--cor5);
+    box-shadow: 3px 2px 0px var(--cor5);
     transition: 0.7s;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 ul {
     height: 100%;
     list-style-type: none;
-    padding: 0;
 }
 
 ul .menu-item {
-    margin-bottom: 25px;
-    padding: 20px 7% 15px 30px;
+    margin-bottom: 20px;
+    padding: 20px 7% 10px 30px;
     transition: 0.7s;
 }
 
@@ -70,6 +73,17 @@ ul .menu-item .text-icon {
     margin-left: 45px;
 }
 
-.btn-expandir{
+.btn-expandir {
     width: 300px;
+    height: 100%;
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+}
+
+main h1 {
+    font-family: 'Roboto' sans-serif;
 }
