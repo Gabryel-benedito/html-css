@@ -36,9 +36,6 @@ body {
     box-shadow: 3px 2px 0px var(--cor5);
     transition: 0.7s;
     height: 80px;
-    position: fixed;
-    top: 0;
-    left: 0;
 }
 
 ul {
@@ -73,6 +70,7 @@ ul .menu-item .text-icon {
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
+
     main {
         width: 250px;
         height: 350px;
@@ -82,11 +80,18 @@ ul .menu-item .text-icon {
 
     .btn-expandir {
         width: 90px;
-        height: 800px;
+        height: 750px;
     }
 }
 
 @media (max-width: 2800px) and (min-width: 801px) {
+
+    .menu-conteiner {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
     main {
         background-color: white;
         width: 600px;
@@ -94,7 +99,7 @@ ul .menu-item .text-icon {
     }
 
     .btn-expandir {
-        width: 300px;
+        width: 20px;
         height: 100%;
     }
 
