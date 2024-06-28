@@ -38,6 +38,12 @@ body {
     height: 80px;
 }
 
+.menu-conteiner {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 ul {
     height: 100%;
     list-style-type: none;
@@ -86,11 +92,6 @@ ul .menu-item .text-icon {
 
 @media (max-width: 2800px) and (min-width: 801px) {
 
-    .menu-conteiner {
-        position: fixed;
-        top: 0;
-        left: 0;
-    }
 
     main {
         background-color: white;
@@ -99,7 +100,7 @@ ul .menu-item .text-icon {
     }
 
     .btn-expandir {
-        width: 20px;
+        width: 250px;
         height: 100%;
     }
 

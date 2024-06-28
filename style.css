@@ -134,6 +134,7 @@ main article>p {
     height: 300px;
     width: 500px;
     border-radius: 7px;
+    transition: 0.7s;
 }
 
 #pequena {
