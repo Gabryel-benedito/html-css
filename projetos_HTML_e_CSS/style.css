@@ -7,7 +7,7 @@
 }
 
 :root {
-    --cor1: #011526;
+    --cor1: #171810;
     --cor2: #012E40;
     --cor3: #025959;
     --cor4: #02735E;
@@ -19,6 +19,14 @@ body {
     background-color: black;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    background-color: var(--cor1);
+    height: 80px;
+    margin-bottom: 100px;
+    box-shadow: 0 2px 0 var(--cor5);
 }
 
 .menu {
@@ -33,7 +41,6 @@ body {
     background-color: var(--cor1);
     width: 80px;
     overflow: hidden;
-    box-shadow: 3px 2px 0px var(--cor5);
     transition: 0.7s;
     height: 80px;
 }
@@ -76,12 +83,6 @@ ul .menu-item .text-icon {
 }
 
 
-main {
-    background-color: white;
-    width: 600px;
-    margin: auto;
-}
-
 .btn-expandir {
     width: 250px;
     height: 100%;
@@ -91,13 +92,19 @@ main {
 
 
 
-main h1 {
-    text-align: center;
-    margin-bottom: 17px;
-    text-shadow: 1px 0.5px 4px var(--cor2);
+img {
+    width: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
-main article p {
-    padding: 10px;
+.icon-link {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    margin: 15px 50px 0 300px ;
+    color: white;
 
 }
