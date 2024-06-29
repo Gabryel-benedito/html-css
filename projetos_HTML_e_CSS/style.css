@@ -22,11 +22,13 @@ body {
 }
 
 
-header {
+header {    
+    position: relative;
     background-color: var(--cor1);
     height: 80px;
     margin-bottom: 100px;
     box-shadow: 0 2px 0 var(--cor5);
+    z-index: 1;
 }
 
 .menu {
@@ -41,7 +43,7 @@ header {
     background-color: var(--cor1);
     width: 80px;
     overflow: hidden;
-    transition: 0.7s;
+    transition: all 0.7s ease;
     height: 80px;
 }
 
@@ -97,6 +99,8 @@ img {
     position: absolute;
     top: 0;
     right: 0;
+    cursor: pointer;
+    transition: 0.7s;
 }
 
 .icon-link {
@@ -108,3 +112,14 @@ img {
     color: white;
 
 }
+
+.cont-ativo {
+    width: 200px;
+    height: 200px;
+}
+
+.foto-ativa {
+    width: 200px ;
+}
+
+
